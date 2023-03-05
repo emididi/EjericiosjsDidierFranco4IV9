@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/index.js"></script>
+    <link rel="stylesheet" href="/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERICIOS JS</title>
+</head>
+<body class="container">
+ 
+    <div class="banner">
+        <h1>Emiliano Didier Franco Rosales 4IV9</h1>
+    </div>
+  
+
+    <div class="pro">
+        <form action="" class="ww">
+            <h1>EJERICIO 1</h1>
+            <label for=""> Ingrese capital</label>
+            <input type="text" name="cap" id="cap" placeholder="ingresa capital"/>
+            <input type="button" value="calcular" onclick="capital()"/>
+            <input type="text" id="resul" disabled/>
+
+
+        </form>
+    </div>
+
+    <div class="pro1">
+        <form action="" class="ww">
+            <h1>EJERICIO 2</h1>
+            <label for="">Ingrese su sueldo base</label>
+            <input type="text" name="sueldobase" id="sueldobase" placeholder="">
+            <br>
+            <label for="">Ingrese su comision 1</label>
+            <input type="text" name="comision1" id="comision1" placeholder="">
+            <br>
+            <label for="">Ingrese su comision 2</label>
+            <input type="text" name="comision2" id="comision2" placeholder="">
+            <br>
+            <label for="">Ingrese su comision 1</label>
+            <input type="text" name="comision3" id="comision3" placeholder="">
+            <br>
+            <br>
+            <input type="button" value="calcular" onclick="resul2()">
+            <br>
+            <label for="">Suma de comisiones</label>
+            <input type="text" id="resul11" disabled/>
+            <label for="">suma total</label>
+            <input type="text" id="resul22" disabled/>
+
+        </form>
+    </div>
+    <div class="pro2">
+        <form action="" class="ww">
+            <h1>EJERICICIO 3</h1>
+            <br>
+            <label for="">Introduzca tu total de compra</label>
+            <input type="text" name="totalcompra" id="totalcompra" />
+            <br>
+            <input type="button" value="calcular descuento"  onclick="resul3()" />
+            <br>
+            <input type="text" placeholder="resultado descuento" id="resultadodescuento" disabled/>
+
+
+
+        </form>
+
+        
+    </div>
+
+    <div class="pro3">
+        <form action="" class="ww">
+            <h1>EJERICICIO 4</h1>
+            <br>
+            <label for=""> Calificacion 1er parcial</label>
+            <input type="text" id="calif1"/>
+            <br>
+            <label for=""> Calificacion 2do parcial</label>
+            <input type="text" id="calif2"/>
+            <br>
+            <label for=""> Calificacion 3er parcial</label>
+            <input type="text" id="calif3"/>
+            <br>
+            <label for=""> Calificacion examen final</label>
+            <input type="text" id="examfin"/>
+            <br>
+            <label for=""> Proyecto final</label>
+            <input type="text" id="proyectofinal"/>
+            <br>
+            <br>
+            <input type="button" value="Calcular promedio final" onclick="resul4()"/>
+            <br>
+            <input type="text" id="califfinal" disabled/>
+            
+
+
+        </form>
+
+        
+    </div>
+
+    
+    <div class="pro4">
+        <form action="" class="ww">
+            <h1>EJERICICIO 5</h1>
+            <br>
+            <label for="">Ingrese cuantas mujeres hay en el salon</label>
+            <input type="text" id="mujeres">
+            <br>
+            <label for="">Ingrese cuantos hombres hay en el salon</label>
+            <input type="text" id="hombres">
+            <br>
+            <input type="button" value="Calcular procentaje" onclick="resul5()">
+            <br>
+            <label for="">Porcentaje de mujeres:</label>
+            <input type="text" id="mujeresresultado" placeholder="Porcentaje" disabled/>
+            <br>
+            <label for="">Porcentaje de hombres:</label>
+            <input type="text" id="hombresresultado" placeholder="Porcentaje" disabled/>
+
+
+
+        </form>
+
+        
+    </div>
+
+    <div class="pro5">
+        <form action="" class="ww">
+            <h1>EJERICICIO 6</h1>
+            <br>
+            <label for="">Para calcular su edad ingrese el ano que nacio:</label>
+            <input type="text" id="nacimiento"/>
+            <br>
+            <label for="">Ingrese en que ano nos encontremos</label>
+            <input type="text" id="actualidad"/>
+            <br>
+            <input type="button" value="Calcular edad" onclick="resul6()"/>
+            <br>
+            <label for="">edad:</label>
+            <input type="text" id="edad" placeholder="edad" disabled/>
+
+
+        </form>
+
+        
+    </div>
+
+    <div class="pro6">
+        <form action="" class="ww">
+            <h1>EJERICICIO 7</h1>
+            <br>
+            <label for="">Multiplicar , restar o sumar</label>
+            <br>
+            <label for="">Ingrese numero 1:</label>
+            <input type="text" id="num1"/>
+            <br>
+            <label for="">Ingrese numero 2:</label>
+            <input type="text" id="num2"/>
+            <br>
+            <input type="button" value="Ver que operacion hara" onclick="resul7()"/>
+            <br>
+            <input type="text" id="cuales" placeholder="tipo" disabled/>
+            <input type="text" id="numresul" placeholder="resultado" disabled/>
+
+
+
+
+        </form>
+           
+    </div>
+    
+    <div class="pro7">
+        <form action="" class="ww">
+            <h1>EJERICICIO 8</h1>
+            <br>
+            <label for="">Numeros diferentes</label>
+            <br>
+            <label for="">Ingrese numero 1:</label>
+            <input type="text" id="num11"/>
+            <br>
+            <label for="">Ingrese numero 2:</label>
+            <input type="text" id="num22"/>
+            <br>
+            <label for="">Ingrese numero 3:</label>
+            <input type="text" id="num33"/>
+            <br>
+            <input type="button" value="Ver cual es el mas grande" onclick="resul8()"/>
+            <br>
+            <input type="text" id="grande" placeholder="resultado" disabled/>
+
+
+
+
+        </form>
+           
+    </div>
+    <div class="pro8">
+        <h2>Ejercicio 9</h2>
+        <form class="ww">
+            <label>Ingrese la cantidad de horas que trabajo el trabajador</label>
+            <input type="number" name="horastotales" id="horastotales"/><br>
+            <label>Ingrese cuanto se le paga por hora al trabajador</label>
+            <input type="number" name="salario" id="salario"/><br>
+            <input type="button" value="Calcular" onclick="ejercicio9()"/> <br>
+
+            <label>El trabajador trabajo</label><input type="number" id="horasnormales" disabled/><label>horas normales</label><br>
+            <label>El trabajador trabajo</label><input type="number" id="horasdobles" disabled/><label>horas extras que se pagaron al doble</label><br>
+            <label>El trabajador trabajo</label><input type="number" id="horastriples" disabled/><label>horas extras que se pagaron al triple</label><br>
+            <label>Se le debera pagar al trabajador: $</label><input type="number" id="salariofinal" disabled/>
+        </form>
+        <br>
+    </div>
+    <div class="pro9">
+        <form action="" class="ww">
+            <h1>EJERICICIO 10</h1>
+            <br>
+            <label for="">Años trabajados</label>
+            <input type="text" id="anos">
+            <br>
+            <label for="">Meses trabajando</label>
+            <input type="text" id="mesess">
+            <br>
+            <label for=""> Pago por mes</label>
+            <input type="text" name="" id="pagomes"> 
+            <br>
+            <input type="button" value="Calcular ganacia" onclick="resul10()"/>
+            <br>
+            <label for="">Dinero a recibir</label>
+            <input type="text" id="recibir" disabled/>
+        </form>
+
+           
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer"></div>
+</body>
+</html>
